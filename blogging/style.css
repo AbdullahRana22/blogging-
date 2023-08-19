@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header h2 {
+    color: white;
+    background-color: #7749f8;
+    height: 1em;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.header h3 {
+    color: black;
+    background-color: white;
+    height: 1em;
+    font-family: sans-serif;
+    padding: 1em;
+}
+
+.box {
+    border: 2px solid #7749f8;
+    width: 650px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18em;
+}
+
+.title {
+    width: 30em;
+    height: 2em;
+    margin-bottom: 5em;
+    color: black;
+    font-family: sans-serif;
+    border: white;
+    margin-left: 1em;
+}
+
+.Blog {
+    width: 40em;
+    height: 8em;
+    color: black;
+    padding: 1em;
+    font-family: sans-serif;
+    border: white;
+    margin-left: 1em;
+    /* font-size: 3em; */
+}
+#input {
+    margin-bottom: 2em;
+    color: #7749f8;
+}
+
+button {
+    width: 30%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    /* opacity: 0.7; */
+    background: #7749f8;
+    padding: 10px 30px;
+    border-radius: 20px;
+    /* text-shadow: 2px 2px 4px rgba(255,255,255,0.06); */
+    /* box-shadow: 3px 3px 5px rgba(31, 38, 135, .37); */
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    margin-left: 1em;
+}
+
+.Blog h2 {
+    font-size: 2em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+.myblog1 h2{
+    font-size: 2em;
+    color: #7749f8;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    /* padding: 2em; */
+    font-family: sans-serif;   
+}
+.content{
+     border: 2px solid bisque; 
+    width: 600px;
+    height: 270px;
+    /* display: flex; */
+    margin-left: 20em;
+    margin-top: 1em;
+}
+.content p{
+    margin-bottom: 6em;
+    height: 4em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.content h2{
+    margin-bottom: 3em;
+    color: #7749f8;
+    font-family: sans-serif;
+
+}
